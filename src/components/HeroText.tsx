@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 function Hero() {
   return (
-    <h1 className="text-4xl text-[#FD6F00] font-bold">
+    <h1 className="text-6xl text-[#FD6F00] font-bold">
       Hi, I'm{" "}
       <span className="text-white">
         <Typewriter
