@@ -6,6 +6,8 @@ import LeftMotion from "./components/FramerMotion/LeftMotion";
 import RightMotion from "./components/FramerMotion/RightMotion";
 import BottomMotion from "./components/FramerMotion/BottomMotion";
 import restoApp from "./assets/img/restoApp.png";
+import foodDelivery from "./assets/img/foodDelivery.png";
+import payloadcms from "./assets/img/payloadcms.png";
 
 const App = () => {
   return (
@@ -113,11 +115,40 @@ const App = () => {
               owners. Whether you're planning a dinner outing or managing your
               busy restaurant, this app brings everything together in one place.
             </p>
-            <a href="https://github.com/Sobanamjad/resto-app " target="_blank" rel="noopener noreferrer">
-            <button className="text-white border-2 w-40 h-12 rounded mt-4 cursor-pointer">Source Code</button>
+            <a href="https://github.com/Sobanamjad/resto-app" target="_blank" rel="noopener noreferrer">
+            <button className="text-[#9C9C9C] border-2 border-[#9C9C9C] w-40 h-12 rounded mt-4 cursor-pointer hover:text-black hover:bg-[#9C9C9C] shadow-lg shadow-[#9C9C9C]/40 ">Source Code</button>
             </a>
           </div>
         </div>
+        <div className="flex flex-tcol md:flex-row gap-8 mt-30 px-6 md:px-20">
+          <div className="text-white md:w-1/2 flex flex-col gap-4">
+            <h1 className="text-4xl font-bold">Food Delivery Project</h1>
+            <p className="text-[#9C9C9C]">
+              Food Delivery Project is a modern, full-stack food delivery platform built with Laravel on the backend and Vue.js on the frontend. This application creates a seamless ecosystem connecting hungry customers, restaurants, and delivery partners, all through an intuitive and responsive interface. The platform combines the robustness of Laravel's backend architecture with the dynamic, reactive user experience of Vue.js to deliver a fast, scalable, and feature-rich food ordering solution. Customers can easily browse restaurant menus, place orders, and track deliveries in real-time, while restaurant owners can manage their offerings and view analytics. Delivery partners can efficiently handle their deliveries with route optimization and real-time updates. This project exemplifies the power of modern web technologies to create a comprehensive and user-friendly food delivery service. 
+            </p>
+            <a href="https://github.com/Sobanamjad/course-food-delivery" target="_blank" rel="noopener noreferrer">
+            <button className="text-[#9C9C9C] border-2 border-[#9C9C9C] w-40 h-12 rounded mt-4 cursor-pointer hover:text-black hover:bg-[#9C9C9C] shadow-lg shadow-[#9C9C9C]/40 ">Source Code</button>
+            </a>
+          </div>
+          <div className="md:w-1/2">
+            <img src={foodDelivery} alt="restoApp" className="w-full rounded-2xl" />
+          </div>
+        </div>
+        <div className="flex flex-tcol md:flex-row gap-8 mt-12 px-6 md:px-20">
+          <div className="md:w-1/2">
+            <img src={payloadcms} alt="restoApp" className="w-full rounded-2xl" />
+          </div>
+          <div className="text-white md:w-1/2 flex flex-col gap-4">
+            <h1 className="text-4xl font-bold">Multi Tenant</h1>
+            <p className="text-[#9C9C9C]">
+              Multi Tenant is a sophisticated, multi-tenant food delivery platform built on Payload CMS that serves as a complete ecosystem connecting multiple restaurant vendors, their customers, and delivery partners—all from a single codebase and infrastructure. The platform leverages Payload's powerful multi-tenancy capabilities to create isolated environments for each restaurant tenant while maintaining centralized control for platform administrators . Customers can easily browse menus, place orders, and track deliveries in real-time, while restaurant owners can manage their offerings, view analytics, and customize their storefronts. Delivery partners can efficiently handle their deliveries with route optimization and real-time updates. This project exemplifies the power of modern web technologies to create a comprehensive and user-friendly food delivery service that scales effortlessly across multiple tenants.
+            </p>
+            <a href="https://github.com/Sobanamjad/plugin-multi-tenancy" target="_blank" rel="noopener noreferrer">
+            <button className="text-[#9C9C9C] border-2 border-[#9C9C9C] w-40 h-12 rounded mt-4 cursor-pointer hover:text-black hover:bg-[#9C9C9C] shadow-lg shadow-[#9C9C9C]/40 ">Source Code</button>
+            </a>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
